@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T22:21:58.503Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Wuv-juZwvy0wW1JDiPwI" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T00:05:21.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="YwnDzRjjWT4FBnXrPkG2" version="20.4.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="737" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Login Screen" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="205" y="80" width="100" height="300" as="geometry" />
+          <mxGeometry x="221" y="80" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
@@ -53,13 +53,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="maQsRKKkw_lxUp9gv3gh-5" value="Local Storage" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="80" width="100" height="300" as="geometry" />
+          <mxGeometry x="59" y="78" width="121" height="330" as="geometry" />
         </mxCell>
         <mxCell id="maQsRKKkw_lxUp9gv3gh-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="maQsRKKkw_lxUp9gv3gh-5">
           <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="maQsRKKkw_lxUp9gv3gh-8" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="maQsRKKkw_lxUp9gv3gh-5">
           <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-12" value="The user saves their router&lt;br&gt;authentication tokens in the&lt;br&gt;apps local storage." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="maQsRKKkw_lxUp9gv3gh-5">
+          <mxGeometry x="-4" y="268" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="maQsRKKkw_lxUp9gv3gh-9" value="save auth tokens" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;strokeColor=#000066;fontColor=#000099;exitX=0.1;exitY=0.863;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-4">
           <mxGeometry relative="1" as="geometry">
@@ -68,19 +71,99 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="maQsRKKkw_lxUp9gv3gh-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000099;" vertex="1" parent="1">
-          <mxGeometry x="150" y="120" width="30" height="60" as="geometry" />
+          <mxGeometry x="166" y="122" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="maQsRKKkw_lxUp9gv3gh-11" value="The backend maintains&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;a list of all routers a given&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;user has authority to&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;connect to.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="640" y="210" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="maQsRKKkw_lxUp9gv3gh-12" value="The user saves their router&lt;br&gt;authentication tokens in the&lt;br&gt;apps local storage." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="50" y="370" width="170" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="maQsRKKkw_lxUp9gv3gh-13" value="&lt;font style=&quot;font-size: 22px;&quot; color=&quot;#000000&quot;&gt;Initial Authentication of MySmartRouter Mobile App&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000099;" vertex="1" parent="1">
           <mxGeometry x="100" y="20" width="520" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="maQsRKKkw_lxUp9gv3gh-14" value="&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;fontSize=22;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="245" y="605" width="120" height="60" as="geometry" />
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-15" value="Mobile App" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="83" y="493" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-16" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="maQsRKKkw_lxUp9gv3gh-15">
+          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.713;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000066;fontSize=22;fontColor=#000000;" edge="1" parent="maQsRKKkw_lxUp9gv3gh-15">
+          <mxGeometry x="0.0002" y="16" relative="1" as="geometry">
+            <mxPoint x="191" y="186" as="sourcePoint" />
+            <mxPoint x="63" y="186.07999999999993" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="173" y="186" />
+              <mxPoint x="173" y="186" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000066;fontSize=22;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="53" y="627" as="sourcePoint" />
+            <mxPoint x="127" y="627" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-31" value="Remote DOM" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000099;" vertex="1" parent="1">
+          <mxGeometry x="27" y="595" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-34" value="&lt;font style=&quot;font-size: 22px;&quot; color=&quot;#000000&quot;&gt;Remote Access to the Collins API&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000099;" vertex="1" parent="1">
+          <mxGeometry x="203" y="420" width="345" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-35" value="Bombardier &#xa;Connect" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="397" y="493" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-36" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="maQsRKKkw_lxUp9gv3gh-35">
+          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-37" value="Collins&#39;&#xa;SmartRouter API" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="556" y="491" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-38" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="maQsRKKkw_lxUp9gv3gh-37">
+          <mxGeometry x="45" y="126" width="10" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-39" value="React Native&#xa;API Gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="493" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-40" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="maQsRKKkw_lxUp9gv3gh-39">
+          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000066;fontSize=22;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry x="-0.0511" y="72" relative="1" as="geometry">
+            <mxPoint x="139" y="636" as="sourcePoint" />
+            <mxPoint x="276" y="636" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000066;fontSize=22;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry x="-0.0263" y="18" relative="1" as="geometry">
+            <mxPoint x="290" y="646" as="sourcePoint" />
+            <mxPoint x="442" y="646" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.51;entryY=0.543;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000066;fontSize=22;fontColor=#000000;" edge="1" parent="1" source="maQsRKKkw_lxUp9gv3gh-36" target="maQsRKKkw_lxUp9gv3gh-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.713;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000066;fontSize=22;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry x="0.0069" y="15" relative="1" as="geometry">
+            <mxPoint x="601" y="666" as="sourcePoint" />
+            <mxPoint x="452" y="666.0799999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="562" y="666" />
+              <mxPoint x="562" y="666" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="maQsRKKkw_lxUp9gv3gh-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.713;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000066;fontSize=22;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry x="0.0203" y="14" relative="1" as="geometry">
+            <mxPoint x="441" y="671" as="sourcePoint" />
+            <mxPoint x="285" y="671.0799999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="395" y="671" />
+              <mxPoint x="395" y="671" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
